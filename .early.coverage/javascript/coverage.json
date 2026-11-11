@@ -1,0 +1,225 @@
+{
+  "/src": {
+    "percentage": null,
+    "totalStatements": null,
+    "coveredStatements": null
+  },
+  "/": {
+    "percentage": null,
+    "totalStatements": null,
+    "coveredStatements": null
+  },
+  "/src/config.ts": {
+    "percentage": null,
+    "totalStatements": null,
+    "coveredStatements": null,
+    "testables": []
+  },
+  "/src/db.ts": {
+    "percentage": null,
+    "totalStatements": null,
+    "coveredStatements": null,
+    "testables": [
+      {
+        "name": "connectDb",
+        "percentage": null,
+        "totalStatements": null,
+        "coveredStatements": null
+      }
+    ]
+  },
+  "/src/models.ts": {
+    "percentage": null,
+    "totalStatements": null,
+    "coveredStatements": null,
+    "testables": []
+  },
+  "/src/server.ts": {
+    "percentage": null,
+    "totalStatements": null,
+    "coveredStatements": null,
+    "testables": [
+      {
+        "name": "reqLog",
+        "percentage": null,
+        "totalStatements": null,
+        "coveredStatements": null
+      }
+    ]
+  },
+  "/scripts": {
+    "percentage": null,
+    "totalStatements": null,
+    "coveredStatements": null
+  },
+  "/scripts/create-vector-index.js": {
+    "percentage": null,
+    "totalStatements": null,
+    "coveredStatements": null,
+    "testables": []
+  },
+  "/src/middleware": {
+    "percentage": null,
+    "totalStatements": null,
+    "coveredStatements": null
+  },
+  "/src/middleware/auth.ts": {
+    "percentage": null,
+    "totalStatements": null,
+    "coveredStatements": null,
+    "testables": [
+      {
+        "name": "authenticate",
+        "percentage": null,
+        "totalStatements": null,
+        "coveredStatements": null
+      },
+      {
+        "name": "requireRole",
+        "percentage": null,
+        "totalStatements": null,
+        "coveredStatements": null
+      }
+    ]
+  },
+  "/src/mcp": {
+    "percentage": null,
+    "totalStatements": null,
+    "coveredStatements": null
+  },
+  "/src/mcp/server.ts": {
+    "percentage": null,
+    "totalStatements": null,
+    "coveredStatements": null,
+    "testables": []
+  },
+  "/src/routes": {
+    "percentage": null,
+    "totalStatements": null,
+    "coveredStatements": null
+  },
+  "/src/routes/chat.ts": {
+    "percentage": null,
+    "totalStatements": null,
+    "coveredStatements": null,
+    "testables": []
+  },
+  "/src/routes/documents.ts": {
+    "percentage": null,
+    "totalStatements": null,
+    "coveredStatements": null,
+    "testables": []
+  },
+  "/src/routes/incidents.ts": {
+    "percentage": null,
+    "totalStatements": null,
+    "coveredStatements": null,
+    "testables": []
+  },
+  "/src/services": {
+    "percentage": null,
+    "totalStatements": null,
+    "coveredStatements": null
+  },
+  "/src/services/embedding.ts": {
+    "percentage": null,
+    "totalStatements": null,
+    "coveredStatements": null,
+    "testables": [
+      {
+        "name": "embed",
+        "percentage": null,
+        "totalStatements": null,
+        "coveredStatements": null
+      }
+    ]
+  },
+  "/src/services/llm.ts": {
+    "percentage": null,
+    "totalStatements": null,
+    "coveredStatements": null,
+    "testables": [
+      {
+        "name": "toOpenAITools",
+        "percentage": null,
+        "totalStatements": null,
+        "coveredStatements": null
+      },
+      {
+        "name": "answerQuestion",
+        "percentage": null,
+        "totalStatements": null,
+        "coveredStatements": null
+      }
+    ]
+  },
+  "/src/services/mcp-client.ts": {
+    "percentage": null,
+    "totalStatements": null,
+    "coveredStatements": null,
+    "testables": [
+      {
+        "name": "getMcpTools",
+        "percentage": null,
+        "totalStatements": null,
+        "coveredStatements": null
+      },
+      {
+        "name": "callMcpTool",
+        "percentage": null,
+        "totalStatements": null,
+        "coveredStatements": null
+      },
+      {
+        "name": "closeMcpClient",
+        "percentage": null,
+        "totalStatements": null,
+        "coveredStatements": null
+      }
+    ]
+  },
+  "/src/services/rag.ts": {
+    "percentage": null,
+    "totalStatements": null,
+    "coveredStatements": null,
+    "testables": [
+      {
+        "name": "splitIntoChunks",
+        "percentage": null,
+        "totalStatements": null,
+        "coveredStatements": null
+      },
+      {
+        "name": "indexDocument",
+        "percentage": null,
+        "totalStatements": null,
+        "coveredStatements": null
+      },
+      {
+        "name": "retrieve",
+        "percentage": null,
+        "totalStatements": null,
+        "coveredStatements": null
+      }
+    ]
+  },
+  "/src/services/security-tools.ts": {
+    "percentage": null,
+    "totalStatements": null,
+    "coveredStatements": null,
+    "testables": [
+      {
+        "name": "searchIncidents",
+        "percentage": null,
+        "totalStatements": null,
+        "coveredStatements": null
+      },
+      {
+        "name": "getHostSummary",
+        "percentage": null,
+        "totalStatements": null,
+        "coveredStatements": null
+      }
+    ]
+  }
+}
